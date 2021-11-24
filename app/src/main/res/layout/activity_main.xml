@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/btn_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="list Item"
+    android:textSize="20sp"
+    android:layout_marginTop="30dp"
+    android:layout_centerHorizontal="true"
+    />
+
+    <Button
+    android:id="@+id/btn_fetch_image"
+    android:layout_below="@+id/btn_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Gallery Image"
+    android:textSize="20sp"
+    android:layout_marginTop="10dp"
+    android:layout_centerHorizontal="true"
+    />
+
+    <Button
+        android:id="@+id/btn_fetch_contact"
+        android:layout_below="@+id/btn_fetch_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact List "
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
