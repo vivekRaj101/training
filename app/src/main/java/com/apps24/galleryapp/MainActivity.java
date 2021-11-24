@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(getApplicationContext(), ListActivity.class));
                 break;
             case R.id.btn_fetch_image:
-                startActivity(new Intent(getApplicationContext(), GalleryActivity.class));
+//                startActivity(new Intent(getApplicationContext(), GalleryActivity.class));
                 break;
             case R.id.btn_fetch_contact:
-                startActivity(new Intent(getApplicationContext(), GalleryActivity.class));
+                startActivity(new Intent(getApplicationContext(), ContactActivity.class));
                 break;
         }
     }
